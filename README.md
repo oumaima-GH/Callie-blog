@@ -2,7 +2,7 @@
 This is a blog website created by ayoub edahlouli and oumaima el mamouni.
 
 ## Description
-A powerful and user-friendly blogging website for sharing your thoughts with the world.
+A powerful and user-friendly blogging website for browsing and enrich your knowledge on variety of different topics.
 
 ## Features
 - Responsive Design

@@ -125,4 +125,175 @@ li {
 }
 .header .bottom-side .nav ul li a:hover {
   color: #ED435E;
+}
+
+/**Hero Section Style**/
+.hero {
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+}
+.hero .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.hero .container .left-side {
+  background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.8)), url("../img/pexels-koolshooters-8530484.jpg") center center/cover;
+  width: 52vw;
+  height: 70.7vh;
+  cursor: pointer;
+  background-position: center/cover;
+  background-repeat: no-repeat;
+  transition: ease-in-out 2s;
+  animation-duration: 0.5s;
+  scroll-behavior: smooth;
+}
+.hero .container .left-side:hover {
+  transition: 0.5s;
+  background-size: 180%;
+}
+.hero .container .left-side .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 40px;
+  gap: 10px;
+}
+.hero .container .left-side .container h5 {
+  color: #ED435E;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+}
+.hero .container .left-side .container h2 {
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+.hero .container .left-side .container h2:hover {
+  color: #ED435E;
+}
+.hero .container .left-side .container .info {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.hero .container .left-side .container .info h4 {
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.hero .container .left-side .container .info h6 {
+  font-size: 12px;
+  padding-left: 10px;
+  margin-top: 2px;
+  font-weight: 400;
+}
+.hero .container .right-side {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.hero .container .right-side .top-side {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)), url("../img/pexels-ton-souza-4596468.jpg") center top/cover;
+  width: 26vw;
+  height: 35vh;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.hero .container .right-side .top-side:hover {
+  transform: scale(1.03);
+  border-left: 3px solid #fff;
+}
+.hero .container .right-side .top-side .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 20px;
+  gap: 10px;
+}
+.hero .container .right-side .top-side .container h5 {
+  color: #ED435E;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+}
+.hero .container .right-side .top-side .container h2 {
+  color: #fff;
+  font-size: 19px;
+  letter-spacing: 1px;
+}
+.hero .container .right-side .top-side .container h2:hover {
+  color: #ED435E;
+}
+.hero .container .right-side .top-side .container .info {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.hero .container .right-side .top-side .container .info h4 {
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.hero .container .right-side .top-side .container .info h6 {
+  font-size: 12px;
+  padding-left: 10px;
+  margin-top: 2px;
+  font-weight: 400;
+}
+.hero .container .right-side .bottom-side {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgb(0, 0, 0)), url("../img/Hero-3.webp") center center/cover;
+  width: 26vw;
+  height: 35vh;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.hero .container .right-side .bottom-side:hover {
+  transform: scale(1.01);
+  box-shadow: none;
+}
+.hero .container .right-side .bottom-side .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 30px 20px;
+  gap: 10px;
+}
+.hero .container .right-side .bottom-side .container h5 {
+  color: #ED435E;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+}
+.hero .container .right-side .bottom-side .container h2 {
+  color: #fff;
+  font-size: 19px;
+  letter-spacing: 1px;
+}
+.hero .container .right-side .bottom-side .container h2:hover {
+  color: #ED435E;
+}
+.hero .container .right-side .bottom-side .container .info {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.hero .container .right-side .bottom-side .container .info h4 {
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.hero .container .right-side .bottom-side .container .info h6 {
+  font-size: 12px;
+  padding-left: 10px;
+  margin-top: 2px;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */

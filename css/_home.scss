@@ -478,3 +478,89 @@
         }
     }    
 }
+
+
+
+.nine-cards{
+    margin: 150px 0;
+
+    .cards{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        justify-content: center;
+        gap: 10px;
+
+        .card{
+            display: flex;
+            align-items: center;
+            font-family: 'Roboto',sans-serif;
+
+            .img1,.img2,.img3,
+            .img4,.img5,.img6,
+            .img7,.img8,.img9{
+                background: url('../img/nine-card1.jpg') center center/cover;
+                width: 10vw;
+                height: 14vh;
+                margin: 10px 0;
+                cursor: pointer;
+
+                &:hover{
+                    background-size: 110%;
+                }
+            }
+            .img2{
+                background: url('../img/nine-card2.jpg') center center/cover;
+            }
+            .img3{
+                background: url('../img/nine-card3.jpg') center center/cover;
+            }
+            .img4{
+                background: url('../img/nine-card4.jpg') center center/cover;
+            }
+            .img5{
+                background: url('../img/nine-card5.jpg') center center/cover;
+            }
+            .img5{
+                background: url('../img/nine-card5.jpg') center center/cover;
+            }
+            .img6{
+                background: url('../img/nine-card6.jpg') center center/cover;
+            }
+            .img7{
+                background: url('../img/nine-card7.jpg') center center/cover;
+            }
+            .img8{
+                background: url('../img/nine-card8.jpg') center center/cover;
+            }
+            .img9{
+                background: url('../img/nine-card9.jpg') center center/cover;
+            }
+
+            .info{
+                margin-left: 15px;
+
+                h4{
+                    color: $primary-color;
+                    text-transform: uppercase;
+                    font-size: 13px;
+                    font-weight: 500;
+                    padding: 10px 0;
+                }
+
+                p{
+                    width: 220px;
+                    font-size: 17px;
+                    font-weight: 600;
+                    cursor: pointer;
+                    transition: all 0.2s;
+
+                    &:hover{
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -296,4 +296,107 @@ li {
   padding-left: 10px;
   margin-top: 2px;
   font-weight: 400;
+}
+
+/**Lifestyle ==> Technology & Health Section Style**/
+/*****<<<<   LifeStyle Section   >>>>*****/
+.posts {
+  margin-top: 500px;
+  font-family: "Roboto", sans-serif;
+}
+.posts .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.posts .container .left-side {
+  width: 50%;
+}
+.posts .container .left-side .box {
+  display: flex;
+  flex-direction: column;
+}
+.posts .container .left-side .box h3 {
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  font-weight: 800;
+  color: #222936;
+  text-transform: uppercase;
+  margin: 30px 0 10px 0;
+}
+.posts .container .left-side .box .cards {
+  display: flex;
+  justify-content: center;
+}
+.posts .container .left-side .box .cards .card1, .posts .container .left-side .box .cards .card2, .posts .container .left-side .box .cards .card3,
+.posts .container .left-side .box .cards .card4, .posts .container .left-side .box .cards .card5, .posts .container .left-side .box .cards .card6,
+.posts .container .left-side .box .cards .card7, .posts .container .left-side .box .cards .card8, .posts .container .left-side .box .cards .card9 {
+  padding: 15px;
+  cursor: pointer;
+}
+.posts .container .left-side .box .cards .card1 .img, .posts .container .left-side .box .cards .card2 .img, .posts .container .left-side .box .cards .card3 .img,
+.posts .container .left-side .box .cards .card4 .img, .posts .container .left-side .box .cards .card5 .img, .posts .container .left-side .box .cards .card6 .img,
+.posts .container .left-side .box .cards .card7 .img, .posts .container .left-side .box .cards .card8 .img, .posts .container .left-side .box .cards .card9 .img {
+  background: url("../img/card1.webp") center center/cover;
+  width: 240px;
+  height: 150px;
+  transition-duration: 0.8s;
+}
+.posts .container .left-side .box .cards .card1 .img:hover, .posts .container .left-side .box .cards .card2 .img:hover, .posts .container .left-side .box .cards .card3 .img:hover,
+.posts .container .left-side .box .cards .card4 .img:hover, .posts .container .left-side .box .cards .card5 .img:hover, .posts .container .left-side .box .cards .card6 .img:hover,
+.posts .container .left-side .box .cards .card7 .img:hover, .posts .container .left-side .box .cards .card8 .img:hover, .posts .container .left-side .box .cards .card9 .img:hover {
+  background-size: 110%;
+}
+.posts .container .left-side .box .cards .card1 h4, .posts .container .left-side .box .cards .card2 h4, .posts .container .left-side .box .cards .card3 h4,
+.posts .container .left-side .box .cards .card4 h4, .posts .container .left-side .box .cards .card5 h4, .posts .container .left-side .box .cards .card6 h4,
+.posts .container .left-side .box .cards .card7 h4, .posts .container .left-side .box .cards .card8 h4, .posts .container .left-side .box .cards .card9 h4 {
+  color: #ED435E;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 10px 0;
+}
+.posts .container .left-side .box .cards .card1 p, .posts .container .left-side .box .cards .card2 p, .posts .container .left-side .box .cards .card3 p,
+.posts .container .left-side .box .cards .card4 p, .posts .container .left-side .box .cards .card5 p, .posts .container .left-side .box .cards .card6 p,
+.posts .container .left-side .box .cards .card7 p, .posts .container .left-side .box .cards .card8 p, .posts .container .left-side .box .cards .card9 p {
+  color: #000;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-left: 2px;
+}
+.posts .container .left-side .box .cards .card1 p:hover, .posts .container .left-side .box .cards .card2 p:hover, .posts .container .left-side .box .cards .card3 p:hover,
+.posts .container .left-side .box .cards .card4 p:hover, .posts .container .left-side .box .cards .card5 p:hover, .posts .container .left-side .box .cards .card6 p:hover,
+.posts .container .left-side .box .cards .card7 p:hover, .posts .container .left-side .box .cards .card8 p:hover, .posts .container .left-side .box .cards .card9 p:hover {
+  color: #ED435E;
+}
+.posts .container .left-side .box .cards .card1 .info, .posts .container .left-side .box .cards .card2 .info, .posts .container .left-side .box .cards .card3 .info,
+.posts .container .left-side .box .cards .card4 .info, .posts .container .left-side .box .cards .card5 .info, .posts .container .left-side .box .cards .card6 .info,
+.posts .container .left-side .box .cards .card7 .info, .posts .container .left-side .box .cards .card8 .info, .posts .container .left-side .box .cards .card9 .info {
+  display: flex;
+  align-items: center;
+  color: #aaaaaa;
+  padding: 10px 0;
+  margin-left: 2px;
+}
+.posts .container .left-side .box .cards .card1 .info h5, .posts .container .left-side .box .cards .card2 .info h5, .posts .container .left-side .box .cards .card3 .info h5,
+.posts .container .left-side .box .cards .card4 .info h5, .posts .container .left-side .box .cards .card5 .info h5, .posts .container .left-side .box .cards .card6 .info h5,
+.posts .container .left-side .box .cards .card7 .info h5, .posts .container .left-side .box .cards .card8 .info h5, .posts .container .left-side .box .cards .card9 .info h5 {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.posts .container .left-side .box .cards .card1 .info h6, .posts .container .left-side .box .cards .card2 .info h6, .posts .container .left-side .box .cards .card3 .info h6,
+.posts .container .left-side .box .cards .card4 .info h6, .posts .container .left-side .box .cards .card5 .info h6, .posts .container .left-side .box .cards .card6 .info h6,
+.posts .container .left-side .box .cards .card7 .info h6, .posts .container .left-side .box .cards .card8 .info h6, .posts .container .left-side .box .cards .card9 .info h6 {
+  font-size: 12px;
+  padding-left: 10px;
+  margin-top: 2px;
+  font-weight: 400;
+}
+.posts .container .left-side .box .cards .card2 .img {
+  background: url("../img/card2.webp") center center/cover;
+}
+.posts .container .left-side .box .cards .card3 .img {
+  background: url("../img/card3.webp") center center/cover;
 }/*# sourceMappingURL=style.css.map */

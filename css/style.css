@@ -399,4 +399,13 @@ li {
 }
 .posts .container .left-side .box .cards .card3 .img {
   background: url("../img/card3.webp") center center/cover;
+}
+.posts .container .left-side .box .cards .card4 .img {
+  background: url("../img/card4.webp") center center/cover;
+}
+.posts .container .left-side .box .cards .card5 .img {
+  background: url("../img/card5.webp") center center/cover;
+}
+.posts .container .left-side .box .cards .card6 .img {
+  background: url("../img/card6.webp") center center/cover;
 }/*# sourceMappingURL=style.css.map */

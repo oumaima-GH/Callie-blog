@@ -299,7 +299,6 @@ li {
 }
 
 /**Lifestyle ==> Technology & Health Section Style**/
-/*****<<<<   LifeStyle Section   >>>>*****/
 .posts {
   margin-top: 500px;
   font-family: "Roboto", sans-serif;
@@ -420,4 +419,67 @@ li {
 }
 .posts .container .left-side .box .cards .card9 .img {
   background: url("../img/card9.webp") center center/cover;
+}
+.posts .container .right-side .newsletter {
+  margin: 50px 0;
+  position: relative;
+}
+.posts .container .right-side .newsletter h3 {
+  margin-bottom: 5px;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  font-weight: 800;
+  color: #222936;
+  text-transform: uppercase;
+}
+.posts .container .right-side .newsletter .input {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 50px;
+}
+.posts .container .right-side .newsletter .input p {
+  margin: 30px 0;
+  color: #aaaaaa;
+}
+.posts .container .right-side .newsletter .input input {
+  padding: 13px 50px 13px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  background-color: #fff;
+}
+.posts .container .right-side .newsletter .input input::-moz-placeholder {
+  color: grey;
+  font-size: 15px;
+  font-family: "Open-sense", sans-serif;
+}
+.posts .container .right-side .newsletter .input input::placeholder {
+  color: grey;
+  font-size: 15px;
+  font-family: "Open-sense", sans-serif;
+}
+.posts .container .right-side .newsletter .input a {
+  background-color: #ED435E;
+  padding: 10px 20px;
+  margin-top: 20px;
+  color: #fff;
+  transition: all 0.5s;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  width: 40%;
+  text-align: center;
+  border-radius: 3px;
+}
+.posts .container .right-side .newsletter .input a:hover {
+  background-color: #fff;
+  color: #ED435E;
+  border: 1.8px solid #ED435E;
+}
+.posts .container .right-side .newsletter i {
+  position: absolute;
+  font-size: 11rem;
+  color: rgba(0, 0, 0, 0.02);
+  top: 30px;
+  right: 80px;
+  transform: rotate(20deg);
 }/*# sourceMappingURL=style.css.map */

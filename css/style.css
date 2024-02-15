@@ -30,4 +30,99 @@ li {
 }
 
 /*****colors****/
-/******Fonts****//*# sourceMappingURL=style.css.map */
+/******Fonts****/
+/******NavBar Section Style******/
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header .top-side {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding-bottom: 10px;
+}
+.header .top-side .links i {
+  padding: 0 10px;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.header .top-side .links i:hover {
+  color: #ED435E;
+}
+.header .top-side .logo {
+  margin-right: 150px;
+  cursor: pointer;
+}
+.header .top-side .logo img {
+  width: 100%;
+  height: 45px;
+}
+.header .top-side .search {
+  cursor: pointer;
+}
+.header .top-side .search .search-input {
+  background-color: #1B1C1E;
+  width: 50vw;
+  height: 15vh;
+  position: absolute;
+  transform: translateX(-125%);
+  top: 65px;
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+}
+.header .top-side .search .search-input input {
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  padding: 20px 480px 20px 20px;
+  margin: 25px 55px;
+}
+.header .top-side .search .search-input input::-moz-placeholder {
+  font-size: 17px;
+}
+.header .top-side .search .search-input input::placeholder {
+  font-size: 17px;
+}
+.header .top-side .search .search-input .clear-icon i {
+  color: #e4e4e4;
+  position: absolute;
+  bottom: 85px;
+  right: 5px;
+  font-size: 20px;
+}
+.header .top-side .search:hover .search-input {
+  visibility: visible;
+}
+.header .bottom-side {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding-bottom: 10px;
+  width: 100%;
+}
+.header .bottom-side .nav {
+  margin: 10px 0;
+}
+.header .bottom-side .nav ul {
+  display: flex;
+  justify-content: center;
+}
+.header .bottom-side .nav ul li {
+  padding: 0 20px;
+}
+.header .bottom-side .nav ul li a {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 0.4s;
+}
+.header .bottom-side .nav ul li a:hover {
+  color: #ED435E;
+}/*# sourceMappingURL=style.css.map */

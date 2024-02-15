@@ -298,8 +298,7 @@ li {
   font-weight: 400;
 }
 
-/**Lifestyle ==> Technology & Health Section Style**/
-/*****<<<<   LifeStyle Section   >>>>*****/
+
 .posts {
   margin-top: 500px;
   font-family: "Roboto", sans-serif;
@@ -408,4 +407,6 @@ li {
 }
 .posts .container .left-side .box .cards .card6 .img {
   background: url("../img/card6.webp") center center/cover;
-}/*# sourceMappingURL=style.css.map */
+
+
+}

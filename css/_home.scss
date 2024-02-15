@@ -1,0 +1,201 @@
+/**Hero Section Style**/
+
+.hero{
+    margin-top: 30px;
+    font-family: 'Roboto',sans-serif;
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+        .left-side{
+            background: linear-gradient(rgba(0,0,0,0.05),rgba(0,0,0,0.8)), url('../img/pexels-koolshooters-8530484.jpg') center center/cover;
+            width: 52vw;
+            height: 70.7vh;
+            cursor: pointer;
+            background-position: center/cover;
+            background-repeat: no-repeat;
+            transition: ease-in-out 2s;
+            animation-duration: 0.5s;
+            scroll-behavior: smooth;
+
+            &:hover{
+                transition: 0.5s;
+                background-size: 180%;
+            }
+            
+            .container{
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-end;
+                padding: 40px;
+                gap: 10px;
+
+                h5{
+                    color: $primary-color;
+                    text-transform: uppercase;
+                    font-size: 13px;
+                    font-weight: 500;
+                }
+
+                h2{
+                    color: $white-color;
+                    font-size: 25px;
+                    letter-spacing: 1px;
+
+                    &:hover{
+                        color: $primary-color;
+                    }
+                }
+
+                .info{
+                    display: flex;
+                    align-items: center;
+                    color: $white-color;
+
+                    h4{
+                        font-size: 14px;
+                        font-weight: 800;
+                        letter-spacing: 1px;
+                    }
+
+                    h6{
+                        font-size: 12px;
+                        padding-left: 10px;
+                        margin-top: 2px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+
+        .right-side{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+            .top-side{
+                background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1)), url('../img/pexels-ton-souza-4596468.jpg') center top/cover;
+                width: 26vw;
+                height: 35vh;
+                transition: all 0.5s;
+                cursor: pointer;
+
+                &:hover{
+                    transform: scale(1.03);
+                    border-left: 3px solid #fff;
+                }
+
+                .container{
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: flex-end;
+                    padding: 20px;
+                    gap: 10px;
+    
+                    h5{
+                        color: $primary-color;
+                        text-transform: uppercase;
+                        font-size: 13px;
+                        font-weight: 500;
+                    }
+    
+                    h2{
+                        color: $white-color;
+                        font-size: 19px;
+                        letter-spacing: 1px;
+
+                        &:hover{
+                            color: $primary-color;
+                        }
+                    }
+    
+                    .info{
+                        display: flex;
+                        align-items: center;
+                        color: $white-color;
+    
+                        h4{
+                            font-size: 14px;
+                            font-weight: 800;
+                            letter-spacing: 1px;
+                        }
+    
+                        h6{
+                            font-size: 12px;
+                            padding-left: 10px;
+                            margin-top: 2px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+
+            .bottom-side{
+                background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,3)), url('../img/Hero-3.webp') center center/cover;
+                width: 26vw;
+                height: 35vh;
+                transition: all 0.5s;
+                cursor: pointer;
+
+                &:hover{
+                    transform: scale(1.01);
+                    box-shadow: none;
+                }
+
+                .container{
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: flex-end;
+                    padding: 30px 20px;
+                    gap: 10px;
+    
+                    h5{
+                        color: $primary-color;
+                        text-transform: uppercase;
+                        font-size: 13px;
+                        font-weight: 500;
+                    }
+    
+                    h2{
+                        color: $white-color;
+                        font-size: 19px;
+                        letter-spacing: 1px;
+
+                        &:hover{
+                            color: $primary-color;
+                        }
+                    }
+    
+                    .info{
+                        display: flex;
+                        align-items: center;
+                        color: $white-color;
+    
+                        h4{
+                            font-size: 14px;
+                            font-weight: 800;
+                            letter-spacing: 1px;
+                        }
+    
+                        h6{
+                            font-size: 12px;
+                            padding-left: 10px;
+                            margin-top: 2px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

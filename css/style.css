@@ -37,7 +37,7 @@ li {
 }
 .recent-posts .recent-posts-container {
   display: grid;
-  margin-left: 100px;
+  margin-left: 160px;
 }
 .recent-posts .recent-posts-container .left {
   width: 50%;
@@ -56,44 +56,103 @@ li {
 }
 .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards {
   display: grid;
-  gap: 50px;
-  grid-template-columns: repeat(2, 60%);
+  gap: 40px;
+  grid-template-columns: repeat(2, 45%);
 }
 .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card1, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card2, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card3,
 .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card4 {
   padding: 15px;
   cursor: pointer;
 }
-.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards h4 {
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card1 .rp-img1, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card2 .rp-img1, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card3 .rp-img1,
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card4 .rp-img1 {
+  background: url("https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg") center center/cover;
+  width: 25vw;
+  height: 35vh;
+  transition: all 0.5s;
+}
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card1 .rp-img1:hover, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card2 .rp-img1:hover, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card3 .rp-img1:hover,
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card4 .rp-img1:hover {
+  background-size: 120%;
+}
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card1 .rp-img2, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card2 .rp-img2, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card3 .rp-img2,
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card4 .rp-img2 {
+  background: url("https://images.pexels.com/photos/919734/pexels-photo-919734.jpeg") center center/cover;
+  width: 25vw;
+  height: 35vh;
+  transition: all 0.5s;
+}
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card1 .rp-img2:hover, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card2 .rp-img2:hover, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card3 .rp-img2:hover,
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card4 .rp-img2:hover {
+  background-size: 120%;
+}
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card1 .rp-img3, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card2 .rp-img3, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card3 .rp-img3,
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card4 .rp-img3 {
+  background: url("https://images.pexels.com/photos/3076509/pexels-photo-3076509.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center center/cover;
+  width: 25vw;
+  height: 35vh;
+  transition: all 0.5s;
+}
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card1 .rp-img3:hover, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card2 .rp-img3:hover, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card3 .rp-img3:hover,
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card4 .rp-img3:hover {
+  background-size: 120%;
+}
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card1 .rp-img4, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card2 .rp-img4, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card3 .rp-img4,
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card4 .rp-img4 {
+  background: url("https://images.pexels.com/photos/1034940/pexels-photo-1034940.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center center/cover;
+  width: 25vw;
+  height: 35vh;
+  transition: all 0.5s;
+}
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card1 .rp-img4:hover, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card2 .rp-img4:hover, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card3 .rp-img4:hover,
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card4 .rp-img4:hover {
+  background-size: 120%;
+}
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card1 .desc, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card2 .desc, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card3 .desc,
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card4 .desc {
+  background-color: #fff;
+  position: relative;
+  bottom: 50px;
+  left: 20px;
+  padding: 20px;
+  width: 25vw;
+}
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card1 .desc h4, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card2 .desc h4, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card3 .desc h4,
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card4 .desc h4 {
   color: #ED435E;
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 500;
   padding: 10px 0;
 }
-.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards p {
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card1 .desc p, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card2 .desc p, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card3 .desc p,
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card4 .desc p {
   color: #000;
   font-size: 16px;
   letter-spacing: 1px;
   font-weight: 600;
   margin-left: 2px;
 }
-.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards p:hover {
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card1 .desc p:hover, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card2 .desc p:hover, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card3 .desc p:hover,
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card4 .desc p:hover {
   color: #ED435E;
 }
-.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .info {
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card1 .desc .info, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card2 .desc .info, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card3 .desc .info,
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card4 .desc .info {
   display: flex;
   align-items: center;
   color: #aaaaaa;
   padding: 10px 0;
   margin-left: 2px;
 }
-.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .info h5 {
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card1 .desc .info h5, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card2 .desc .info h5, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card3 .desc .info h5,
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card4 .desc .info h5 {
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 1px;
 }
-.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .info h6 {
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card1 .desc .info h6, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card2 .desc .info h6, .recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card3 .desc .info h6,
+.recent-posts .recent-posts-container .left .rp-box .recent-ps-cards .rp-card4 .desc .info h6 {
   font-size: 12px;
   padding-left: 10px;
   margin-top: 2px;

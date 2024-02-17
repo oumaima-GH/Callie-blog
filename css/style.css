@@ -296,4 +296,216 @@ li {
   padding-left: 10px;
   margin-top: 2px;
   font-weight: 400;
+}
+
+.section2-container {
+  font-family: "Roboto", sans-serif;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.section2-container .rp-box {
+  margin: 60px;
+}
+.section2-container .rp-box .rp-heading {
+  font-size: large;
+  color: #1B1C1E;
+  margin-left: 50px;
+}
+.section2-container .rp-box .recent-ps-cards {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.section2-container .rp-box .recent-ps-cards .rp-card1, .section2-container .rp-box .recent-ps-cards .rp-card2, .section2-container .rp-box .recent-ps-cards .rp-card3,
+.section2-container .rp-box .recent-ps-cards .rp-card4 {
+  padding: 20px;
+  cursor: pointer;
+}
+.section2-container .rp-box .recent-ps-cards .rp-card1 .rp-img1, .section2-container .rp-box .recent-ps-cards .rp-card2 .rp-img1, .section2-container .rp-box .recent-ps-cards .rp-card3 .rp-img1,
+.section2-container .rp-box .recent-ps-cards .rp-card4 .rp-img1 {
+  background: url("https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg") center center/cover;
+  width: 25vw;
+  height: 35vh;
+  transition: all 0.5s;
+}
+.section2-container .rp-box .recent-ps-cards .rp-card1 .rp-img1:hover, .section2-container .rp-box .recent-ps-cards .rp-card2 .rp-img1:hover, .section2-container .rp-box .recent-ps-cards .rp-card3 .rp-img1:hover,
+.section2-container .rp-box .recent-ps-cards .rp-card4 .rp-img1:hover {
+  background-size: 120%;
+}
+.section2-container .rp-box .recent-ps-cards .rp-card1 .rp-img2, .section2-container .rp-box .recent-ps-cards .rp-card2 .rp-img2, .section2-container .rp-box .recent-ps-cards .rp-card3 .rp-img2,
+.section2-container .rp-box .recent-ps-cards .rp-card4 .rp-img2 {
+  background: url("https://images.pexels.com/photos/919734/pexels-photo-919734.jpeg") center center/cover;
+  width: 25vw;
+  height: 35vh;
+  transition: all 0.5s;
+}
+.section2-container .rp-box .recent-ps-cards .rp-card1 .rp-img2:hover, .section2-container .rp-box .recent-ps-cards .rp-card2 .rp-img2:hover, .section2-container .rp-box .recent-ps-cards .rp-card3 .rp-img2:hover,
+.section2-container .rp-box .recent-ps-cards .rp-card4 .rp-img2:hover {
+  background-size: 120%;
+}
+.section2-container .rp-box .recent-ps-cards .rp-card1 .rp-img3, .section2-container .rp-box .recent-ps-cards .rp-card2 .rp-img3, .section2-container .rp-box .recent-ps-cards .rp-card3 .rp-img3,
+.section2-container .rp-box .recent-ps-cards .rp-card4 .rp-img3 {
+  background: url("https://images.pexels.com/photos/3076509/pexels-photo-3076509.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center center/cover;
+  width: 25vw;
+  height: 35vh;
+  transition: all 0.5s;
+}
+.section2-container .rp-box .recent-ps-cards .rp-card1 .rp-img3:hover, .section2-container .rp-box .recent-ps-cards .rp-card2 .rp-img3:hover, .section2-container .rp-box .recent-ps-cards .rp-card3 .rp-img3:hover,
+.section2-container .rp-box .recent-ps-cards .rp-card4 .rp-img3:hover {
+  background-size: 120%;
+}
+.section2-container .rp-box .recent-ps-cards .rp-card1 .rp-img4, .section2-container .rp-box .recent-ps-cards .rp-card2 .rp-img4, .section2-container .rp-box .recent-ps-cards .rp-card3 .rp-img4,
+.section2-container .rp-box .recent-ps-cards .rp-card4 .rp-img4 {
+  background: url("https://images.pexels.com/photos/1034940/pexels-photo-1034940.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center center/cover;
+  width: 25vw;
+  height: 35vh;
+  transition: all 0.5s;
+}
+.section2-container .rp-box .recent-ps-cards .rp-card1 .rp-img4:hover, .section2-container .rp-box .recent-ps-cards .rp-card2 .rp-img4:hover, .section2-container .rp-box .recent-ps-cards .rp-card3 .rp-img4:hover,
+.section2-container .rp-box .recent-ps-cards .rp-card4 .rp-img4:hover {
+  background-size: 120%;
+}
+.section2-container .rp-box .recent-ps-cards .rp-card1 .desc, .section2-container .rp-box .recent-ps-cards .rp-card2 .desc, .section2-container .rp-box .recent-ps-cards .rp-card3 .desc,
+.section2-container .rp-box .recent-ps-cards .rp-card4 .desc {
+  background-color: #fff;
+  position: relative;
+  bottom: 50px;
+  left: 20px;
+  padding: 20px;
+  width: 25vw;
+}
+.section2-container .rp-box .recent-ps-cards .rp-card1 .desc h4, .section2-container .rp-box .recent-ps-cards .rp-card2 .desc h4, .section2-container .rp-box .recent-ps-cards .rp-card3 .desc h4,
+.section2-container .rp-box .recent-ps-cards .rp-card4 .desc h4 {
+  color: #ED435E;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 10px 0;
+}
+.section2-container .rp-box .recent-ps-cards .rp-card1 .desc p, .section2-container .rp-box .recent-ps-cards .rp-card2 .desc p, .section2-container .rp-box .recent-ps-cards .rp-card3 .desc p,
+.section2-container .rp-box .recent-ps-cards .rp-card4 .desc p {
+  color: #000;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-left: 2px;
+}
+.section2-container .rp-box .recent-ps-cards .rp-card1 .desc p:hover, .section2-container .rp-box .recent-ps-cards .rp-card2 .desc p:hover, .section2-container .rp-box .recent-ps-cards .rp-card3 .desc p:hover,
+.section2-container .rp-box .recent-ps-cards .rp-card4 .desc p:hover {
+  color: #ED435E;
+}
+.section2-container .rp-box .recent-ps-cards .rp-card1 .desc .info, .section2-container .rp-box .recent-ps-cards .rp-card2 .desc .info, .section2-container .rp-box .recent-ps-cards .rp-card3 .desc .info,
+.section2-container .rp-box .recent-ps-cards .rp-card4 .desc .info {
+  display: flex;
+  align-items: center;
+  color: #aaaaaa;
+  padding: 10px 0;
+  margin-left: 2px;
+}
+.section2-container .rp-box .recent-ps-cards .rp-card1 .desc .info h5, .section2-container .rp-box .recent-ps-cards .rp-card2 .desc .info h5, .section2-container .rp-box .recent-ps-cards .rp-card3 .desc .info h5,
+.section2-container .rp-box .recent-ps-cards .rp-card4 .desc .info h5 {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.section2-container .rp-box .recent-ps-cards .rp-card1 .desc .info h6, .section2-container .rp-box .recent-ps-cards .rp-card2 .desc .info h6, .section2-container .rp-box .recent-ps-cards .rp-card3 .desc .info h6,
+.section2-container .rp-box .recent-ps-cards .rp-card4 .desc .info h6 {
+  font-size: 12px;
+  padding-left: 10px;
+  margin-top: 2px;
+  font-weight: 400;
+}
+
+.right .sidenav {
+  display: grid;
+  justify-content: end;
+  margin-top: 60px;
+}
+.right .sidenav .social-heading {
+  font-size: large;
+  color: #1B1C1E;
+}
+.right .sidenav .socials {
+  display: flex;
+  margin-top: 40px;
+}
+.right .sidenav .socials .facebook {
+  padding: 50px 30px;
+  background-color: #3a3afc;
+  justify-content: center;
+}
+.right .sidenav .socials .facebook h5 {
+  color: #fff;
+  font-size: large;
+  font-weight: 600;
+  margin: 10px;
+  text-align: center;
+}
+.right .sidenav .socials .facebook p {
+  color: #fff;
+  font-size: large;
+  font-weight: 700;
+  text-align: center;
+}
+.right .sidenav .socials .facebook i {
+  color: #fff;
+  font-size: 30px;
+  padding-left: 20px;
+  text-align: center;
+}
+.right .sidenav .socials .facebook:hover {
+  opacity: 90%;
+  cursor: pointer;
+}
+.right .sidenav .socials .twitter {
+  padding: 50px 30px;
+  background-color: #1DA1F2;
+}
+.right .sidenav .socials .twitter h5 {
+  color: #fff;
+  font-size: large;
+  font-weight: 600;
+  margin: 10px;
+  text-align: center;
+}
+.right .sidenav .socials .twitter p {
+  color: #fff;
+  font-size: large;
+  font-weight: 700;
+  text-align: center;
+}
+.right .sidenav .socials .twitter i {
+  color: #fff;
+  font-size: 30px;
+  padding-left: 20px;
+  text-align: center;
+}
+.right .sidenav .socials .twitter:hover {
+  opacity: 90%;
+  cursor: pointer;
+}
+.right .sidenav .socials .google {
+  padding: 50px 30px;
+  background-color: rgb(219, 85, 85);
+}
+.right .sidenav .socials .google h5 {
+  color: #fff;
+  font-size: large;
+  font-weight: 600;
+  margin: 10px;
+}
+.right .sidenav .socials .google p {
+  color: #fff;
+  font-size: large;
+  font-weight: 700;
+}
+.right .sidenav .socials .google i {
+  color: #fff;
+  font-size: 30px;
+  padding-left: 20px;
+}
+.right .sidenav .socials .google:hover {
+  opacity: 90%;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

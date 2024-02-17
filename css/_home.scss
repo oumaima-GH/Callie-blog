@@ -1,233 +1,121 @@
-/**Hero Section Style**/
 
-.hero{
-    margin-top: 30px;
-    font-family: 'Roboto',sans-serif;
+                .recent-ps-cards{
+                    display: grid;
+                    gap: 40px;
+                    grid-template-columns: repeat(2, 45%);
+                    
 
-    .container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 5px;
 
-        .left-side{
-            background: linear-gradient(rgba(0,0,0,0.05),rgba(0,0,0,0.8)), url('../img/pexels-koolshooters-8530484.jpg') center center/cover;
-            width: 52vw;
-            height: 70.7vh;
-            cursor: pointer;
-            background-position: center/cover;
-            background-repeat: no-repeat;
-            transition: ease-in-out 2s;
-            animation-duration: 0.5s;
-            scroll-behavior: smooth;
+                    .rp-card1,.rp-card2,.rp-card3,
+                    .rp-card4{
+                        padding: 15px;
+                        cursor: pointer;
 
-            &:hover{
-                transition: 0.5s;
-                background-size: 180%;
-            }
+                        .rp-img1{
+                            background: url("https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg") center center/cover; 
+                            width: 25vw;
+                            height: 35vh;
+                            transition: all .5s;
+
+                            &:hover{
+                                background-size: 120%;
+                                
+                            }
+                        }
+                        .rp-img2{
+                            background: url("https://images.pexels.com/photos/919734/pexels-photo-919734.jpeg") center center/cover; 
+                            width: 25vw;
+                            height: 35vh;
+                            transition: all .5s;
+
+
+                            &:hover{
+                                background-size: 120%;
+                                
+                            }
+                        }
+                        .rp-img3{
+                            background: url("https://images.pexels.com/photos/3076509/pexels-photo-3076509.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center center/cover; 
+                            width: 25vw;
+                            height: 35vh;
+                            transition: all .5s;
+
+
+                            &:hover{
+                                background-size: 120%;
+                                
+                            }
+                        }
+                        .rp-img4{
+                            background: url("https://images.pexels.com/photos/1034940/pexels-photo-1034940.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center center/cover; 
+                            width: 25vw;
+                            height: 35vh;
+                            transition: all .5s;
+
+
+                            &:hover{
+                                background-size: 120%;
+                                
+                            }
+                        }
+
+                        
+
+                        
+                        .desc{
+                            background-color: $white-color;
+                            position: relative;
+                            bottom: 50px;
+                            left: 20px;
+                            padding: 20px;
+                            width: 25vw;
+
+                            h4{
+                                color: $primary-color;
+                                text-transform: uppercase;
+                                font-size: 13px;
+                                font-weight: 500;
+                                padding: 10px 0;
+                            }
             
-            .container{
-                height: 100%;
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-                justify-content: flex-end;
-                padding: 40px;
-                gap: 10px;
-
-                h5{
-                    color: $primary-color;
-                    text-transform: uppercase;
-                    font-size: 13px;
-                    font-weight: 500;
-                }
-
-                h2{
-                    color: $white-color;
-                    font-size: 25px;
-                    letter-spacing: 1px;
-
-                    &:hover{
-                        color: $primary-color;
-                    }
-                }
-
-                .info{
-                    display: flex;
-                    align-items: center;
-                    color: $white-color;
-
-                    h4{
-                        font-size: 14px;
-                        font-weight: 800;
-                        letter-spacing: 1px;
-                    }
-
-                    h6{
-                        font-size: 12px;
-                        padding-left: 10px;
-                        margin-top: 2px;
-                        font-weight: 400;
-                    }
-                }
-            }
-        }
-
-        .right-side{
-            display: flex;
-            flex-direction: column;
-            gap: 5px;
-
-            .top-side{
-                background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1)), url('../img/pexels-ton-souza-4596468.jpg') center top/cover;
-                width: 26vw;
-                height: 35vh;
-                transition: all 0.5s;
-                cursor: pointer;
-
-                &:hover{
-                    transform: scale(1.03);
-                    border-left: 3px solid #fff;
-                }
-
-                .container{
-                    height: 100%;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-start;
-                    justify-content: flex-end;
-                    padding: 20px;
-                    gap: 10px;
-    
-                    h5{
-                        color: $primary-color;
-                        text-transform: uppercase;
-                        font-size: 13px;
-                        font-weight: 500;
-                    }
-    
-                    h2{
-                        color: $white-color;
-                        font-size: 19px;
-                        letter-spacing: 1px;
-
-                        &:hover{
-                            color: $primary-color;
-                        }
-                    }
-    
-                    .info{
-                        display: flex;
-                        align-items: center;
-                        color: $white-color;
-    
-                        h4{
-                            font-size: 14px;
-                            font-weight: 800;
-                            letter-spacing: 1px;
-                        }
-    
-                        h6{
-                            font-size: 12px;
-                            padding-left: 10px;
-                            margin-top: 2px;
-                            font-weight: 400;
+                            p{
+                                color: $black-color;
+                                font-size: 16px;
+                                letter-spacing: 1px;
+                                font-weight: 600;
+                                margin-left: 2px;
+            
+                                &:hover{
+                                    color: $primary-color;
+                                }
+                            }
+            
+                            .info{
+                                display: flex;
+                                align-items: center;
+                                color: $text-color;
+                                padding: 10px 0;
+                                margin-left: 2px;
+            
+                                h5{
+                                    font-size: 13px;
+                                    font-weight: 600;
+                                    letter-spacing: 1px;
+                                }
+            
+                                h6{
+                                    font-size: 12px;
+                                    padding-left: 10px;
+                                    margin-top: 2px;
+                                    font-weight: 400;
+                                }
+                            }
                         }
                     }
                 }
             }
-
-            .bottom-side{
-                background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,3)), url('../img/Hero-3.webp') center center/cover;
-                width: 26vw;
-                height: 35vh;
-                transition: all 0.5s;
-                cursor: pointer;
-
-                &:hover{
-                    transform: scale(1.01);
-                    box-shadow: none;
-                }
-
-                .container{
-                    height: 100%;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-start;
-                    justify-content: flex-end;
-                    padding: 30px 20px;
-                    gap: 10px;
-    
-                    h5{
-                        color: $primary-color;
-                        text-transform: uppercase;
-                        font-size: 13px;
-                        font-weight: 500;
-                    }
-    
-                    h2{
-                        color: $white-color;
-                        font-size: 19px;
-                        letter-spacing: 1px;
-
-                        &:hover{
-                            color: $primary-color;
-                        }
-                    }
-    
-                    .info{
-                        display: flex;
-                        align-items: center;
-                        color: $white-color;
-    
-                        h4{
-                            font-size: 14px;
-                            font-weight: 800;
-                            letter-spacing: 1px;
-                        }
-    
-                        h6{
-                            font-size: 12px;
-                            padding-left: 10px;
-                            margin-top: 2px;
-                            font-weight: 400;
-                        }
-                    }
-                }
-            }
-
         }
     }
-}
-
-
-
-/**Lifestyle ==> Technology & Health Section Style**/
-
-.posts{
-    margin-top: 500px;
-    font-family: 'Roboto',sans-serif;
-
-    .container{
-        display: flex;
-        justify-content: space-around;
-        align-items: flex-start;
-
-        .left-side{
-            width: 50%;
-
-            .box{
-                display: flex;
-                flex-direction: column;
-
-                h3{
-                    font-size: 17px;
-                    letter-spacing: 0.5px;
-                    font-weight: 800;
-                    color: $side-nav-color;
-                    text-transform: uppercase;
-                    margin: 30px 0 10px 0;
-                }
 
                 .cards{
                     display: flex;
@@ -411,4 +299,5 @@
             }
         }
     }    
+
 }

@@ -745,4 +745,171 @@ li {
 }
 .posts .container .right-side .popular .cards .card .info p:hover {
   color: #ED435E;
+}
+
+/**Three Cards Section Style**/
+.three-cards {
+  margin-top: 120px;
+  font-family: "Roboto", sans-serif;
+}
+.three-cards .container {
+  display: flex;
+  justify-content: center;
+}
+.three-cards .container .card h3 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1B1C1E;
+  margin-left: 22px;
+}
+.three-cards .container .card .card1, .three-cards .container .card .card2, .three-cards .container .card .card3 {
+  padding: 20px;
+  cursor: pointer;
+}
+.three-cards .container .card .card1 .img1, .three-cards .container .card .card2 .img1, .three-cards .container .card .card3 .img1 {
+  background: url("https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg") center center/cover;
+  width: 25vw;
+  height: 35vh;
+  transition: all 0.5s;
+}
+.three-cards .container .card .card1 .img1:hover, .three-cards .container .card .card2 .img1:hover, .three-cards .container .card .card3 .img1:hover {
+  background-size: 120%;
+}
+.three-cards .container .card .card1 .img2, .three-cards .container .card .card2 .img2, .three-cards .container .card .card3 .img2 {
+  background: url("https://images.pexels.com/photos/919734/pexels-photo-919734.jpeg") center center/cover;
+  width: 25vw;
+  height: 35vh;
+  transition: all 0.5s;
+}
+.three-cards .container .card .card1 .img2:hover, .three-cards .container .card .card2 .img2:hover, .three-cards .container .card .card3 .img2:hover {
+  background-size: 120%;
+}
+.three-cards .container .card .card1 .img3, .three-cards .container .card .card2 .img3, .three-cards .container .card .card3 .img3 {
+  background: url("https://images.pexels.com/photos/3076509/pexels-photo-3076509.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center center/cover;
+  width: 25vw;
+  height: 35vh;
+  transition: all 0.5s;
+}
+.three-cards .container .card .card1 .img3:hover, .three-cards .container .card .card2 .img3:hover, .three-cards .container .card .card3 .img3:hover {
+  background-size: 120%;
+}
+.three-cards .container .card .card1 .desc, .three-cards .container .card .card2 .desc, .three-cards .container .card .card3 .desc {
+  background-color: #fff;
+  position: relative;
+  bottom: 50px;
+  left: 20px;
+  padding: 20px;
+  width: 25vw;
+}
+.three-cards .container .card .card1 .desc h4, .three-cards .container .card .card2 .desc h4, .three-cards .container .card .card3 .desc h4 {
+  color: #ED435E;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 10px 0;
+}
+.three-cards .container .card .card1 .desc p, .three-cards .container .card .card2 .desc p, .three-cards .container .card .card3 .desc p {
+  color: #000;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-left: 2px;
+}
+.three-cards .container .card .card1 .desc p:hover, .three-cards .container .card .card2 .desc p:hover, .three-cards .container .card .card3 .desc p:hover {
+  color: #ED435E;
+}
+.three-cards .container .card .card1 .desc .info, .three-cards .container .card .card2 .desc .info, .three-cards .container .card .card3 .desc .info {
+  display: flex;
+  align-items: center;
+  color: #aaaaaa;
+  padding: 10px 0;
+  margin-left: 2px;
+}
+.three-cards .container .card .card1 .desc .info h5, .three-cards .container .card .card2 .desc .info h5, .three-cards .container .card .card3 .desc .info h5 {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.three-cards .container .card .card1 .desc .info h6, .three-cards .container .card .card2 .desc .info h6, .three-cards .container .card .card3 .desc .info h6 {
+  font-size: 12px;
+  padding-left: 10px;
+  margin-top: 2px;
+  font-weight: 400;
+}
+
+/*****Nine Cards Section*****/
+.nine-cards .cards {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  justify-content: center;
+  gap: 10px;
+}
+.nine-cards .cards .card {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+.nine-cards .cards .card .img1, .nine-cards .cards .card .img2, .nine-cards .cards .card .img3,
+.nine-cards .cards .card .img4, .nine-cards .cards .card .img5, .nine-cards .cards .card .img6,
+.nine-cards .cards .card .img7, .nine-cards .cards .card .img8, .nine-cards .cards .card .img9 {
+  background: url("../img/nine-card1.jpg") center center/cover;
+  width: 10vw;
+  height: 14vh;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.nine-cards .cards .card .img1:hover, .nine-cards .cards .card .img2:hover, .nine-cards .cards .card .img3:hover,
+.nine-cards .cards .card .img4:hover, .nine-cards .cards .card .img5:hover, .nine-cards .cards .card .img6:hover,
+.nine-cards .cards .card .img7:hover, .nine-cards .cards .card .img8:hover, .nine-cards .cards .card .img9:hover {
+  background-size: 110%;
+}
+.nine-cards .cards .card .img2 {
+  background: url("../img/nine-card2.jpg") center center/cover;
+}
+.nine-cards .cards .card .img3 {
+  background: url("../img/nine-card3.jpg") center center/cover;
+}
+.nine-cards .cards .card .img4 {
+  background: url("../img/nine-card4.jpg") center center/cover;
+}
+.nine-cards .cards .card .img5 {
+  background: url("../img/nine-card5.jpg") center center/cover;
+}
+.nine-cards .cards .card .img5 {
+  background: url("../img/nine-card5.jpg") center center/cover;
+}
+.nine-cards .cards .card .img6 {
+  background: url("../img/nine-card6.jpg") center center/cover;
+}
+.nine-cards .cards .card .img7 {
+  background: url("../img/nine-card7.jpg") center center/cover;
+}
+.nine-cards .cards .card .img8 {
+  background: url("../img/nine-card8.jpg") center center/cover;
+}
+.nine-cards .cards .card .img9 {
+  background: url("../img/nine-card9.jpg") center center/cover;
+}
+.nine-cards .cards .card .info {
+  margin-left: 15px;
+}
+.nine-cards .cards .card .info h4 {
+  color: #ED435E;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 10px 0;
+}
+.nine-cards .cards .card .info p {
+  width: 220px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.nine-cards .cards .card .info p:hover {
+  color: #ED435E;
 }/*# sourceMappingURL=style.css.map */

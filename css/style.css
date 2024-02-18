@@ -970,6 +970,7 @@ li {
   margin-left: 20px;
 }
 .footer-info .first-row li {
+  cursor: pointer;
   color: #aaaaaa;
   margin: 20px;
   font-weight: 600;
@@ -978,6 +979,9 @@ li {
   float: right;
   font-size: 14px;
   margin-left: 15px;
+}
+.footer-info .first-row li:hover {
+  color: #ED435E;
 }
 .footer-info .first-row .third-col button {
   padding: 10px;
